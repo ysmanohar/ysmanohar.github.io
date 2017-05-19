@@ -1,0 +1,90 @@
+.initial-layout {
+    background-image: url(../images/layout.jpg);
+    background-size: 1366px 637px ;
+    height: 637px;
+    width: 1366px;
+}
+
+.initial-layout .picture img{
+border-radius: 50%;
+height: 200px;
+position: relative;
+     left: 580px;
+     top:50px;
+}
+
+.hello{
+     font-size: 350%;
+     color:white;
+     position: relative;
+     left: 600px;
+     top: 60px;
+}
+
+.Im{
+     font-size: 350%;
+     color:white;
+     position: relative;
+     left: 630px;
+     top: 40px;
+}
+
+.name{
+     font-size: 350%;
+     color:white;
+     position: relative;
+     left: 500px;
+     top: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.initial-layout #git {
+     opacity: 1;
+     display: block;
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+     position: relative;
+     left: 470px;
+     top:50px;
+     transition: .5s ease;
+     backface-visibility: hidden;
+}
+
+.initial-layout #linkedin {
+     opacity: 1;
+     display: block;
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+     position: relative;
+     left: 560px;
+     top:50px;
+     transition: .5s ease;
+     backface-visibility: hidden;
+}
+
+.initial-layout #resume {
+     opacity: 1;
+     display: block;
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+     position: relative;
+     left: 670px;
+     top:50px;
+     transition: .5s ease;
+     backface-visibility: hidden;
+}
+
+
+.initial-layout #git:hover {
+  opacity: 0.2;
+}
+
+.initial-layout #linkedin:hover {
+  opacity: 0.2;
+}
+.initial-layout #resume:hover {
+  opacity: 0.2;
+}

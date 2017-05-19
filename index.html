@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PortFolio</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	</head>
+	<body>
+
+   <div class="initial-layout">
+	   <div class="picture">
+		   <img src="images/mypic.JPG">
+	   </div>
+	   <p class="hello">Hello..</p> 
+	   <p class ="Im"> I'm </p>
+	   <p class ="name"> Sai Manohar Yerra </p>
+	     <div class="references">
+		<a href="https://github.com/ysmanohar" target="_blank">	 
+		<img src="images/newgit.jpg" id="git" style="float:left">
+		</a>
+		<a href=" https://www.linkedin.com/in/saimanoharyerra" target="_blank">	
+		<img src="images/linkedin.png" id="linkedin" style="float:left">
+		</a>
+		<a download="resume.docx" href="images/resume.docx">	
+		<img src="images/resume.jpg" id="resume" style="float:left">
+		</a>
+	     </div>
+
+   </div>
+
+	</body>
+</html>
+
+<script>
+    $(document).ready(function() {
+      $('.hello').hide().delay(500).fadeIn(2200);
+	  $('.Im').hide().delay(2000).fadeIn(2200);
+	   $('.name').hide().delay(2500).fadeIn(2200);
+	    $('#git').hide().delay(3000).fadeIn(2200);
+		$('#linkedin').hide().delay(3000).fadeIn(2200);
+		$('#resume').hide().delay(3000).fadeIn(2200);
+});
+    </script>
+
